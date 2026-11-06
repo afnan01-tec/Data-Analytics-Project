@@ -70,28 +70,22 @@ The goal is to help an airline see which parts of the service matter most, so it
 ## 6. Screenshots or Output
 
 **Distribution of passenger satisfaction**
-![Satisfaction distribution]
-(images/01_satisfaction_distribution.png)
+![Satisfaction distribution](images/01_satisfaction_distribution.png)
 
 **Satisfaction by travel class**
-![Satisfaction by class]
-(images/02_satisfaction_by_class.png)
+![Satisfaction by class](images/02_satisfaction_by_class.png)
 
 **Age vs satisfaction**
-![Age vs satisfaction]
-(images/03_age_vs_satisfaction.png)
+![Age vs satisfaction](images/03_age_vs_satisfaction.png)
 
 **Flight distance distribution**
-![Flight distance]
-(images/04_flight_distance.png)
+![Flight distance](images/04_flight_distance.png)
 
 **Confusion matrix**
-![Confusion matrix]
-(images/05_confusion_matrix.png)
+![Confusion matrix](images/05_confusion_matrix.png)
 
 **ROC curve**
-![ROC curve]
-(images/06_roc_curve.png)
+![ROC curve](images/06_roc_curve.png)
 
 **Top 10 features associated with satisfaction**
 ![Top features](images/07_top_features.png)
