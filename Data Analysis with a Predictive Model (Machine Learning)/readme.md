@@ -9,7 +9,7 @@ The goal is to help an airline see which parts of the service matter most, so it
 ## 2. Dataset
 
 - **Name:** Invistico Airline passenger satisfaction survey (`Invistico_Airline.csv`)
-- **Source:** Kaggle – Airline Passenger Satisfaction (Invistico Airline). Add your exact download link here: `https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction`
+- **Source:** Kaggle – Airline Passenger Satisfaction (Invistico Airline): `https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction`
 - **Size:** 129,880 rows and 23 original columns (a helper column, `satisfaction_flag`, is also present in the notebook and is excluded from the model).
 - **Target:** `satisfaction` (satisfied: 71,087 passengers, dissatisfied: 58,793 passengers).
 - **Key columns:**
