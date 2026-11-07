@@ -142,6 +142,7 @@ Power BI Desktop, Power Query, and DAX.
 Power BI Dashboard/
 ├── global education powerbi.pbix
 ├── global_education.csv
+├── report pages.pdf
 ├── images/
 │   ├── Country Comparions.png
 │   ├── data_model.png
