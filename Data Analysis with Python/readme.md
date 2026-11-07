@@ -1,5 +1,18 @@
 # Airbnb Singapore: What Drives Nightly Prices?
 
+An exploratory analysis of Singapore Airbnb listings, focusing on nightly prices, listing characteristics, location, and estimated revenue.
+
+## Contents
+
+- [Business Question](#1-business-question)
+- [Dataset](#2-dataset)
+- [Tools Used](#3-tools-used)
+- [Steps Followed](#4-steps-followed)
+- [Key Insights](#5-key-insights)
+- [Visualizations](#6-outputs)
+- [How to Run or Open](#7-how-to-run-or-open)
+- [Limitations](#limitations)
+
 ## 1. Business Question
 
 **What factors influence Airbnb nightly prices in Singapore, and where and what type of listing should a new host choose to maximise potential revenue?**
@@ -65,7 +78,7 @@ The analysis looks at how room type, size, location, minimum stay and host quali
 
 **Recommendation for a new host:** a well-located private room or small home in the Central Region is a sensible start, since private rooms earned the most among active listings. Expect heavy competition from professional hosts.
 
-## 6. Outputs
+## 6. Visualizations
 
 **Distribution of nightly price**
 ![Distribution of nightly price](images/01_price_distribution.png)
@@ -90,19 +103,26 @@ The analysis looks at how room type, size, location, minimum stay and host quali
 
 ## 7. How to Run or Open
 
-1. Clone or download this repository.
-2. Download the Singapore listings file from [Inside Airbnb](https://insideairbnb.com/get-the-data/), save it as `airbnb_singapore.csv`, and place it in the same folder as the notebook.
-3. Install the libraries:
+The notebook and `airbnb_singapore.csv` are included in this project folder.
+
+1. Install the libraries:
    ```bash
    pip install pandas numpy matplotlib seaborn jupyter
    ```
-4. Start Jupyter and open the notebook:
+2. From this folder, start Jupyter and open the notebook:
    ```bash
-   jupyter notebook Airbnb_Singapore.ipynb
+   jupyter notebook "Airbnb Singapore.ipynb"
    ```
-5. Run all cells from top to bottom (**Kernel → Restart & Run All**).
+3. Run all cells from top to bottom (**Kernel → Restart & Run All**).
 
-You can also view the notebook directly on GitHub without running anything.
+The notebook can also be viewed directly on GitHub.
+
+## Limitations
+
+- The source listings are a snapshot scraped on 26 September 2026; prices and availability can change.
+- Estimated revenue is a dataset estimate, not verified earnings.
+- Correlations and group comparisons describe associations in this snapshot and do not establish cause and effect.
+- Neighbourhoods with few listings may have less stable price estimates.
 
 ## Author
 **Afnan M** 

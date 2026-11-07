@@ -1,7 +1,21 @@
 # EV Charging Network Analysis | Excel Dashboard
 
+An Excel dashboard project exploring charging sessions, costs, energy use, and usage patterns across an EV charging network.
+
+## Contents
+
+- [Business Question](#business-question)
+- [Dataset](#dataset)
+- [Tools and Workbook](#tools-and-workbook)
+- [Dashboard](#dashboard)
+- [Key Metrics](#key-metrics-whole-dataset-no-slicer-filters-applied)
+- [Key Insights](#key-insights)
+- [Recommendations](#recommendations)
+- [Data Quality Notes](#data-quality-notes)
+
 ## Business Question
-How do charging cost, energy use and session volume vary by charger type, location, time of day and user type, and where can an EV charging network focus to increase revenue?
+
+How do charging cost, energy use, and session volume vary by charger type, location, time of day, and user type? Where can an EV charging network focus to increase revenue?
 
 ## Dataset
 | Item | Details |
@@ -38,8 +52,9 @@ How do charging cost, energy use and session volume vary by charger type, locati
 | Charger Type | Level 1, Level 2 or DC Fast Charger |
 | User Type | Commuter, Casual Driver or Long-Distance Traveler |
 
-## Tools Used
-Microsoft Excel: Pivot Tables, Pivot Charts, Slicers, Dashboard 
+## Tools and Workbook
+
+Microsoft Excel: PivotTables, PivotCharts, slicers, and dashboard.
 
 ## Workbook Structure
 | Sheet | Contents |
@@ -76,7 +91,12 @@ Microsoft Excel: Pivot Tables, Pivot Charts, Slicers, Dashboard
 7. **Tesla Model 3 has the most sessions (280) and the highest average energy per session (44.4 kWh).**
 8. **Differences between groups are small.** Cost, energy, duration and charging rate show almost no correlation with each other (cost vs energy is -0.01), so no single factor strongly drives cost in this dataset.
 
+## Recommendations
 
+- Focus capacity and maintenance on evening hours and Los Angeles, where session volume and revenue are highest.
+- Review pricing across charger types, taking account of the small differences in average session cost and the similar usage levels.
+- Consider targeted offers for commuters, the largest user group.
+- Investigate Thursday and Chicago, where average costs are relatively high but session counts are lower.
 
 ## Data Quality Notes
 - 32 sessions have a state of charge above 100% (9 at start, 23 at end), 268 sessions end with a lower charge than they started, and 191 sessions report more energy than the battery capacity.

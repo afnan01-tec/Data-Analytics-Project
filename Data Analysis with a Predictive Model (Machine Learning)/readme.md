@@ -1,5 +1,18 @@
 # Airline Passenger Satisfaction Prediction
 
+An end-to-end classification project using passenger profiles, service ratings, and flight details to predict airline passenger satisfaction.
+
+## Contents
+
+- [Business Question](#1-business-question)
+- [Dataset](#2-dataset)
+- [Tools Used](#3-tools-used)
+- [Steps Followed](#4-steps-followed)
+- [Key Insights](#5-key-insights)
+- [Visualizations](#6-visualizations)
+- [How to Run or Open](#7-how-to-run-or-open)
+- [Limitations](#limitations)
+
 ## 1. Business Question
 
 **Which factors make airline passengers satisfied or dissatisfied, and can we predict a passenger's satisfaction from their profile and their ratings of the flight experience?**
@@ -67,7 +80,7 @@ The goal is to help an airline see which parts of the service matter most, so it
 - The model may not carry over to other airlines or future passengers.
 - Personal expectations affect satisfaction and are hard to measure.
 
-## 6.Outputs
+## 6. Visualizations
 
 **Distribution of passenger satisfaction**
 ![Satisfaction distribution](images/01_satisfaction_distribution.png)
@@ -92,19 +105,26 @@ The goal is to help an airline see which parts of the service matter most, so it
 
 ## 7. How to Run or Open
 
-1. Clone or download this repository.
-2. Download the dataset from Kaggle, save it as `Invistico_Airline.csv`, and place it in the same folder as the notebook.
-3. Install the libraries:
+The notebook and `Invistico_Airline.csv` are included in this project folder.
+
+1. Install the libraries:
    ```bash
    pip install pandas numpy matplotlib seaborn scikit-learn jupyter
    ```
-4. Start Jupyter and open the notebook:
+2. From this folder, start Jupyter and open the notebook:
    ```bash
-   jupyter notebook Airline_Passenger_Satisfaction.ipynb
+   jupyter notebook "Airline Passenger Satisfaction.ipynb"
    ```
-5. Run all cells from top to bottom (**Kernel → Restart & Run All**).
+3. Run all cells from top to bottom (**Kernel → Restart & Run All**).
 
-You can also view the notebook directly on GitHub without running anything.
+The notebook can also be viewed directly on GitHub.
+
+## Limitations
+
+- Logistic Regression models a linear relationship between features and the log-odds of satisfaction, so it may miss more complex patterns.
+- The results show associations, not cause and effect.
+- Performance on this dataset does not guarantee similar results for another airline or future passengers.
+- Survey ratings and personal expectations may not capture every factor affecting satisfaction.
 
 ## Author
 **Afnan M** 
