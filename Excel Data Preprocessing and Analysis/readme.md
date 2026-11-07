@@ -39,7 +39,7 @@ How do charging cost, energy use and session volume vary by charger type, locati
 | User Type | Commuter, Casual Driver or Long-Distance Traveler |
 
 ## Tools Used
-Microsoft Excel: Pivot Tables, Pivot Charts, Slicers, Dashboard and What-if Analysis
+Microsoft Excel: Pivot Tables, Pivot Charts, Slicers, Dashboard 
 
 ## Workbook Structure
 | Sheet | Contents |
@@ -48,11 +48,11 @@ Microsoft Excel: Pivot Tables, Pivot Charts, Slicers, Dashboard and What-if Anal
 | Ev_dataset | Raw data (1,320 rows, 20 columns) |
 | Pivot Table | 8 pivot tables with charts |
 | Dashboard | Charts and slicers |
-| Sheet7 | What-if analysis (sessions vs projected revenue) |
+
 
 ## Dashboard
 
-[EV Dashboard.png]
+[EV_Dashboard.png]
 
 
 ## Key Metrics (whole dataset, no slicer filters applied)
@@ -97,4 +97,4 @@ ev-charging-network-analysis/
 ```
 
 ## Author
-**Afnan M** |
+**Afnan M** 

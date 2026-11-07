@@ -105,4 +105,4 @@ The analysis looks at how room type, size, location, minimum stay and host quali
 You can also view the notebook directly on GitHub without running anything.
 
 ## Author
-**Afnan M** |
+**Afnan M** 

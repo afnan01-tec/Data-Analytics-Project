@@ -107,4 +107,4 @@ The goal is to help an airline see which parts of the service matter most, so it
 You can also view the notebook directly on GitHub without running anything.
 
 ## Author
-**Afnan M** |
+**Afnan M** 
