@@ -77,11 +77,6 @@ Microsoft Excel: Pivot Tables, Pivot Charts, Slicers, Dashboard
 8. **Differences between groups are small.** Cost, energy, duration and charging rate show almost no correlation with each other (cost vs energy is -0.01), so no single factor strongly drives cost in this dataset.
 
 
-## Recommendations
-- Focus capacity and maintenance on **evening hours and Los Angeles**, where demand and revenue are highest.
-- Review pricing for **Level 1 and Level 2** chargers, since DC Fast Charger earns a higher cost per session with similar usage.
-- Target **commuters** with subscription or loyalty plans, since they are the biggest group.
-- Look into **Thursday and Chicago**, where average costs are high but session counts are low, for promotions that lift volume.
 
 ## Data Quality Notes
 - 32 sessions have a state of charge above 100% (9 at start, 23 at end), 268 sessions end with a lower charge than they started, and 191 sessions report more energy than the battery capacity.
@@ -92,7 +87,7 @@ Microsoft Excel: Pivot Tables, Pivot Charts, Slicers, Dashboard
 ```
 ev-charging-network-analysis/
 ├── EV_charging_network.xlsx
-├── images/
+├── EV_Dashboard.png
 └── README.md
 ```
 
