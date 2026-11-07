@@ -67,7 +67,7 @@ The goal is to help an airline see which parts of the service matter most, so it
 - The model may not carry over to other airlines or future passengers.
 - Personal expectations affect satisfaction and are hard to measure.
 
-## 6. Screenshots or Output
+## 6.Outputs
 
 **Distribution of passenger satisfaction**
 ![Satisfaction distribution](images/01_satisfaction_distribution.png)
