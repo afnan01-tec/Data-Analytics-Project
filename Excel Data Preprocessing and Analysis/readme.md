@@ -7,7 +7,7 @@ How do charging cost, energy use and session volume vary by charger type, locati
 | Item | Details |
 |---|---|
 | Name | EV Charging Network |
-| Source | [ADD SOURCE LINK HERE] |
+| Source | https://www.kaggle.com/datasets/valakhorasani/electric-vehicle-charging-patterns |
 | Rows | 1,320 charging sessions |
 | Columns | 20 |
 | Period | 1 Jan 2024 to 24 Feb 2024 |
@@ -52,7 +52,7 @@ Microsoft Excel: Pivot Tables, Pivot Charts, Slicers, Dashboard
 
 ## Dashboard
 
-[EV_Dashboard.png]
+![EV Charging Dashboard](EV_Dashboard.png)
 
 
 ## Key Metrics (whole dataset, no slicer filters applied)
