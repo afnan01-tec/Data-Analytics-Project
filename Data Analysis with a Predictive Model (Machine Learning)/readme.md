@@ -67,7 +67,7 @@ The goal is to help an airline see which parts of the service matter most, so it
 - The model may not carry over to other airlines or future passengers.
 - Personal expectations affect satisfaction and are hard to measure.
 
-## 6. Outputs
+## 6. Screenshots or Output
 
 **Distribution of passenger satisfaction**
 ![Satisfaction distribution](images/01_satisfaction_distribution.png)
@@ -105,3 +105,6 @@ The goal is to help an airline see which parts of the service matter most, so it
 5. Run all cells from top to bottom (**Kernel → Restart & Run All**).
 
 You can also view the notebook directly on GitHub without running anything.
+
+## Author
+**Afnan M** |

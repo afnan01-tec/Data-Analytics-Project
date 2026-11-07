@@ -65,7 +65,7 @@ The analysis looks at how room type, size, location, minimum stay and host quali
 
 **Recommendation for a new host:** a well-located private room or small home in the Central Region is a sensible start, since private rooms earned the most among active listings. Expect heavy competition from professional hosts.
 
-## 6. Screenshots or Output
+## 6. Outputs
 
 **Distribution of nightly price**
 ![Distribution of nightly price](images/01_price_distribution.png)
@@ -103,3 +103,6 @@ The analysis looks at how room type, size, location, minimum stay and host quali
 5. Run all cells from top to bottom (**Kernel → Restart & Run All**).
 
 You can also view the notebook directly on GitHub without running anything.
+
+## Author
+**Afnan M** |
