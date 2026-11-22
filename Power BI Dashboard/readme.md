@@ -38,10 +38,11 @@ The dashboard includes interactive continent and decade slicers, KPI cards, char
 
 ## Project Files
 
-- **Power BI Report:** `global education powerbi.pbix`
-- **Source Dataset:** `global_education.csv`
-- **Dashboard Screenshots:** Available in the `images` folder.
-- **Data Model:** `images/data_model.png`
+- **Power BI Report:** [`global_education_analytics.pbix`](global_education_analytics.pbix)
+- **Source Dataset:** [`global_education.csv`](global_education.csv)
+- **Dashboard Report:** [`reports.pdf`](reports.pdf)
+- **Dashboard Screenshots:** [`images`](images/)
+- **Data Model:** [`images/data_model.png`](images/data_model.png)
 
 ## Dataset
 
@@ -135,7 +136,7 @@ Explores changes in literacy, enrollment, and education spending over time. It i
 
 Compares education performance across countries and continents using literacy rankings, pupil-teacher ratios, GDP per capita, education expenditure, and country-level comparisons.
 
-![Country Comparisons](images/Country%20Comparisons.png)
+![Country Comparisons](images/Country%20Comparions%20.png)
 
 [View Country Comparisons Insight](images/Country%20Comparisons%20Insight.png)
 
@@ -143,7 +144,7 @@ Compares education performance across countries and continents using literacy ra
 
 Examines gender differences in literacy and secondary enrollment through trend comparisons, country-level gender gaps, and regional analysis.
 
-![Gender and Equity](images/Gender%20%26%20Equity.png)
+![Gender and Equity](images/Gender%20&Equity.png)
 
 [View Gender and Equity Insight](images/Gender%20%26%20Equity%20Insight.png)
 
@@ -151,9 +152,9 @@ Examines gender differences in literacy and secondary enrollment through trend c
 
 Analyzes education expenditure across continents and countries, pupil-teacher ratios, spending trends over time, and the relationship between GDP per capita and education investment.
 
-![Investment and Resources](images/Investment%20%26%20Resources.png)
+![Investment and Resources](images/Investment%20&%20Resources.png)
 
-[View Investment and Resources Insight](images/Investment%20%26%20Resources%20insight.png)
+[View Investment and Resources Insight](images/Investment%20&%20Resouces%20insight.png)
 
 ## Key Insights
 
@@ -206,24 +207,24 @@ Therefore, this dashboard should be considered an exploratory analysis of the su
 
 ```text
 Power BI Dashboard/
-│
-├── global education powerbi.pbix
-├── global_education.csv
-├── report pages.pdf
-├── readme.md
-│
-└── images/
-    ├── data_model.png
-    ├── Global Overview.png
-    ├── Global Overview_insight.png
-    ├── Education Trends.png
-    ├── Education Trends insight.png
-    ├── Country Comparisons.png
-    ├── Country Comparisons Insight.png
-    ├── Gender & Equity.png
-    ├── Gender & Equity Insight.png
-    ├── Investment & Resources.png
-    └── Investment & Resources insight.png
+|
++-- global_education_analytics.pbix
++-- global_education.csv
++-- reports.pdf
++-- readme.md
+|
+`-- images/
+    |-- data_model.png
+    |-- Global Overview.png
+    |-- Global Overview_insight.png
+    |-- Education Trends.png
+    |-- Education Trends insight.png
+    |-- Country Comparions .png
+    |-- Country Comparisons Insight.png
+    |-- Gender &Equity.png
+    |-- Gender & Equity Insight.png
+    |-- Investment & Resources.png
+    `-- Investment & Resouces insight.png
 ```
 
 ## Author
